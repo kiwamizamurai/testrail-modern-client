@@ -20,3 +20,4 @@ export * from './tests';
 export * from './users';
 export * from './variables';
 export * from './plans';
+export * from './sections';
