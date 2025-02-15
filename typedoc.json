@@ -1,0 +1,22 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["src/index.ts"],
+  "out": "docs",
+  "name": "TestRail API Client",
+  "navigationLinks": {
+    "GitHub": "https://github.com/kiwamizamurai/testrail-modern-client"
+  },
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true,
+  "includeVersion": true,
+  "categorizeByGroup": true,
+  "categoryOrder": ["Client", "Services", "Models", "*"],
+  "searchInComments": true,
+  "plugin": ["typedoc-plugin-markdown"],
+  "validation": {
+    "notExported": false,
+    "invalidLink": true,
+    "notDocumented": false
+  }
+}
